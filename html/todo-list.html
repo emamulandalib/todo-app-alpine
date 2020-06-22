@@ -1,0 +1,6 @@
+<div x-data="getData()">
+    <div x-text="items"></div>
+    <template x-for="(item, index) in items" :key="index">
+        <div x-text="item"></div>
+    </template>
+</div>
